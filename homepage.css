@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppin", sans-serif;
+}
+
+.container{
+    height: 200vh;
+    width: 99vw;
+    background-color: bisque;
+
+
+}
+
+.header{
+    height: 14vh;
+    width: 99vw;
+    background-color: transparent;
+    backdrop-filter: blur(6px);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.header span{
+    height: 10vh;
+    width: 99vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header span a{
+    text-decoration: none;
+}
+
+.header .logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    height: 3vw;
+    width: 10vw;
+    margin: 0.5vw;
+    margin-right: 2vw;
+    margin-left: 10vw;
+    border-radius: 0.5vw;
+
+}
+
+.header span .logininfo{
+    height: 10vh;
+    width: 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10vw;
+    padding: 2vw;
+}
+
+.header .selecter{
+    height: 4vh;
+    width: 99vw;
+
+    display: flex;
+    align-items: center;
+
+    
+}
+.header .selecter a{
+    margin: 1vw;
+    text-decoration: none;
+}
+
+.header .selecter .left{
+    margin-left: 10vw;
+}
+
+.container .spacerdiv{
+    height: 14vh;
+    width: 99vw;
+    background-color: black;
+}
+
+.container .slider{
+    height: 60vh;
+    width: 99vw;
+    background-image: url(./img/helena-lopes-lIeqGEdvex0-unsplash\ \(1\).jpg);
+    background-size:cover;
+
+}
+
+.container .box1{
+    margin-left: 9vw;
+    margin-top: 3vh;
+    
+}
+
+.container .box1 span{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.container .box1 h1{
+    font-size: 6vh;
+    margin-bottom: 2vh;
+    margin-left: 1vw;
+}
+
+.container .box1 .type .name{
+    text-decoration: none;
+    margin-bottom: 5vh;
+    color: aqua;
+}
+
+.container .box1 .type{
+    height: 38vh;
+    width: 20vw;
+    background-color: coral;
+    border-radius: 2.5vh;
+    padding: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-decoration: none;
+    margin:1vw;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+
+}
+
+.container hr{
+    margin: 5vh;
+    margin-left: 10vw;
+    height: 0.2vh;
+    border-radius: 50vh;
+    background-color: black;
+}
+
+.container .locations{
+    display: flex;
+}
+
+.container .locations .maps{
+    margin-left: 10vw;
+    margin-right: 4vw;
+    border-radius: 2vh;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
