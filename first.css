@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+    height: 375vh;
+    width: 99vw;
+    background-color: rgb(255, 255, 255);
+
+
+
+
+}
+
+.header{
+    height: 10vh;
+    width: 99vw;
+    background-color: rgb(0, 101, 157);
+    backdrop-filter: blur(6px);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    z-index: 1000;
+}
+
+.header span img{
+    height: 5vh;
+    margin-right: 0.5vw;
+}
+
+header span .logoname{
+    font-family: "Whisper", cursive;
+
+}
+
+.header span{
+    height: 10vh;
+    width: 99vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header span a{
+    text-decoration: none;
+    color: white;
+
+
+
+
+}
+
+.header .logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppin", sans-serif;
+    height: 3vw;
+    width: 10vw;
+    margin: 0.5vw;
+    margin-right: 2vw;
+    margin-left: 9vw;
+    border-radius: 10vw;
+    padding-left: 0.4vw;
+    padding-right: 0.4vw;
+
+
+}
+
+.header .logo:hover{
+    border: 0.1px white solid;
+}
+
+.header .span1 h4{
+    color: white;
+    font-family: "Poppin", sans-serif;
+
+}
+
+
+.header span .logininfo{
+    height: 10vh;
+    width: 15vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 7vw;
+    padding: 2vw;
+    font-family: "Poppin", sans-serif;
+
+}
+
+
+.header span .logininfo .register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10vw;
+    padding-left: 0.4vw;
+    padding-right: 0.4vw;
+
+    background-color: #ed820e;
+
+    height: 3vw;
+    width: 7vw;
+    margin: 0.5vw;
+}
+
+.header span .logininfo .register:hover{
+    color: black;
+    background-color: #ea820e;
+}
+
+.header span .logininfo .login:hover{
+    color: black;
+}
+
+
+.header span .logininfo .login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10vw;
+    padding-left: 0.4vw;
+    padding-right: 0.4vw;
+
+
+    border: white 0.1px solid;
+
+    height: 3vw;
+    width: 7vw;
+    margin: 0.5vw;
+}
+
+
+
+.spacerdiv{
+    height: 10vh;
+    width: 99vw;
+    background-color: #0099ff;
+}
+
+
+
+.container .map{
+    margin-top: 4vh;
+    position: fixed;
+    margin-left: 10vw;
+    margin-right: 5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.container #map{
+    border-radius: 1vw;
+}
+
+.container .locationinfo{
+    width: 40vw;
+    margin-right: 10vw;
+    font-size: 2vh;
+}
+
+
+.container  .map .lselect{
+    display: flex;
+}
+
+.container  #location-select{
+    margin-left: 5px;
+}
+
+.container  .maps{
+    
+    margin-left: 10vw;
+    margin-right: 4vw;
+    border-radius: 2vh;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.container .map input {
+    margin-top: 2vh;
+    height: 2vh;
+    border-radius: 0.5vh;
+    
+}
+
+.container .booking{
+    height: 100vh;
+    width: 55vw;
+    background-color: #0099ff;
+    margin-left: 30vw;
+    padding-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container .horse1{
+    height: 30vw;
+    width: 25vw;
+    background-color: yellowgreen;
+    margin-bottom: 2vh;
+    border-radius: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+
+}
