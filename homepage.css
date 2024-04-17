@@ -1,0 +1,522 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+    height: 375vh;
+    width: 99vw;
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+.header{
+    height: 10vh;
+    width: 99vw;
+    background-color: rgb(0, 101, 157);
+    backdrop-filter: blur(6px);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    z-index: 1000;
+}
+
+.header span img{
+    height: 5vh;
+    margin-right: 0.5vw;
+}
+
+header span .logoname{
+    font-family: "Whisper", cursive;
+
+}
+
+.header span{
+    height: 10vh;
+    width: 99vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header span a{
+    text-decoration: none;
+    color: white;
+
+
+
+
+}
+
+.header .logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppin", sans-serif;
+    height: 3vw;
+    width: 10vw;
+    margin: 0.5vw;
+    margin-right: 2vw;
+    margin-left: 9vw;
+    border-radius: 10vw;
+    padding-left: 0.4vw;
+    padding-right: 0.4vw;
+
+
+}
+
+.header .logo:hover{
+    border: 0.1px white solid;
+}
+
+.header .span1 h4{
+    color: white;
+    font-family: "Poppin", sans-serif;
+
+}
+
+
+.header span .logininfo{
+    height: 10vh;
+    width: 15vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 7vw;
+    padding: 2vw;
+    font-family: "Poppin", sans-serif;
+
+}
+
+
+.header span .logininfo .register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10vw;
+    padding-left: 0.4vw;
+    padding-right: 0.4vw;
+
+    background-color: #ed820e;
+
+    height: 3vw;
+    width: 7vw;
+    margin: 0.5vw;
+}
+
+.header span .logininfo .register:hover{
+    color: black;
+    background-color: #ea820e;
+}
+
+.header span .logininfo .login:hover{
+    color: black;
+}
+
+
+.header span .logininfo .login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10vw;
+    padding-left: 0.4vw;
+    padding-right: 0.4vw;
+
+
+    border: white 0.1px solid;
+
+    height: 3vw;
+    width: 7vw;
+    margin: 0.5vw;
+}
+
+/* .header .selecter {
+    height: 4vh;
+    width: 99vw;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Poppin", sans-serif;
+    
+    
+}
+.header .selecter {
+    height: 4vh;
+    width: 20vw;
+    margin-left: 9vw;
+
+}
+.header .selecter a{
+    margin: 1vw;
+    text-decoration: none;
+    color: white;
+    margin-top: -1vh;
+} */
+
+
+
+
+.container .spacerdiv{
+    height: 10vh;
+    width: 99vw;
+    background-color: #747779;
+}
+
+.container .slider{
+    height: 60vh;
+    width: 99vw;
+    background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ),
+    /* bottom, image */
+    url(./img/david-dibert-Huza8QOO3tc-unsplash.jpg);
+    
+    font-family: "Poppin", sans-serif;
+    color: white;
+    padding-top: 3vh;
+}
+
+.container .slider h1{
+    margin-left: 10vw;
+    margin-right: 40vh;
+    margin-bottom: 5vh;
+    margin-top: 1vhc;
+    font-size: 5vh;
+}
+
+.container .slider p{
+    margin-left: 10vw;
+    font-size: 2vh;
+    margin-right: 65vw;
+}
+
+.container .box1{
+
+    padding-top: 3vh;
+    background-color: #f7f7f7;
+    padding-bottom: 5vh;
+
+}
+
+.container .box1 span{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.container .box1 h1{
+    font-size: 6vh;
+    margin-bottom: 2vh;
+    margin-left: 10vw;
+}
+
+.container .box1 .type .name{
+
+    margin-top: 3vh;
+
+}
+
+.container .box1 .type{
+    height: 33vh;
+    width: 17vw;
+    background-color: coral;
+    border-radius: 2.5vh;
+    padding: 1vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    flex-direction: column;
+    text-decoration: none;
+    margin:0.5vw;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    color: #f7f7f7;
+    text-decoration: none;
+
+}
+
+.container .box1 .type button{
+    width: 7vw;
+    height: 5vh;
+    border-radius: 10vw;
+    margin-bottom: 1.5vh;
+    border: 0px;
+}
+
+.container .box1 #first{
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(./img/unah.jpeg)
+    ;
+    background-size: cover;
+}
+
+.container .box1 #second{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.4), 
+        rgba(0, 0, 0, 0.4)
+      ),url(./img/Khagin-Khar-lake-horseback-trekking-mongolia-tours-travel-trip-holiday-mongolia-mongolia-horse-trip-mongolia-Arkhangai-Province-horse.jpeg);
+    background-size: cover;
+}
+
+.container .box1 #third{
+
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(./img/Mongolia-Naadam-festival-tours-horseback-ride-trekking-ride.jpeg);
+    background-size: cover;
+}
+
+.container .box1 #fourth{
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ), url(./img/mortoizuragavah.jpeg);
+    background-size: cover;
+}
+.container .box1 #fifth{
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ), url(./img/race.jpeg);
+    background-size: cover;
+ 
+}
+
+.container .box1 a{
+    text-decoration: none;
+    text-align: center;
+}
+
+.container hr{
+    margin: 5vh;
+    margin-left: 10vw;
+    height: 0.2vh;
+    border-radius: 50vh;
+    background-color: black;
+}
+
+
+
+.container .locations{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 4vh;
+    z-index: 999;
+    margin-bottom: 5vh;
+
+}
+
+.container .locations #map{
+    border-radius: 1vw;
+}
+
+.container .locations .locationinfo{
+    width: 40vw;
+    margin-right: 10vw;
+    font-size: 2vh;
+}
+
+.container .locations span{
+    margin-left: 10vw;
+    margin-right: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container .locations span .lselect{
+    display: flex;
+}
+
+.container .locations #location-select{
+    margin-left: 5px;
+}
+
+.container .locations .maps{
+    
+    margin-left: 10vw;
+    margin-right: 4vw;
+    border-radius: 2vh;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.container .pictures{
+    height: 85vh;
+    width: 99vw;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+}
+
+.container .pictures .content {
+    height: 85vh;
+    width: 79vw;
+    margin-top: 5vh;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container .pictures .content span{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4vh;
+
+}
+
+.container .pictures .content .pic1{
+    width: 18vw;
+    height: 36vh;
+    background-image: url(./img/bunch\ of\ images/1.jpeg);
+    background-size: cover;
+    border-radius: 1vw;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+
+}
+
+.container .pictures .content .pic2{
+    width: 18vw;
+    height: 36vh;
+    background-image: url(./img/bunch\ of\ images/2.jpeg);
+    background-size: cover;
+    border-radius: 1vw;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.container .pictures .content .pic3{
+    width: 18vw;
+    height: 36vh;
+    background-image: url(./img/bunch\ of\ images/3.jpeg);
+    background-size: cover;
+    border-radius: 1vw;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.container .pictures .content .pic4{
+    width: 18vw;
+    height: 36vh;
+    background-image: url(./img/bunch\ of\ images/4.jpeg);
+    background-size: cover;
+    border-radius: 1vw;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.container .pictures .content .pic5{
+    width: 18vw;
+    height: 36vh;
+    background-image: url(./img/bunch\ of\ images/5.jpeg);
+    background-size: cover;
+    border-radius: 1vw;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+
+
+}
+
+.container .pictures .content .pic6{
+    width: 18vw;
+    height: 36vh;
+    background-image: url(./img/bunch\ of\ images/6.jpeg);
+    background-size: cover;
+    border-radius: 1vw;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.container .pictures .content .pic7{
+    width: 18vw;
+    height: 36vh;
+    background-image: url(./img/bunch\ of\ images/7.jpeg);
+    background-size: cover;
+    border-radius: 1vw;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.container .pictures .content .pic8{
+    width: 18vw;
+    height: 36vh;
+    background-image: url(./img/bunch\ of\ images/8.jpeg);
+    background-size: cover;
+    border-radius: 1vw;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.container .about {
+    display: flex;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.container .about img{
+    height: 40vh;
+    margin-left: 4vw;
+    margin-right: 10vw;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    border-radius: 2vh;
+}
+
+.container .about span{
+    margin-left: 10vw;
+
+}
+
+.container .about h2{
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.container .footer{
+    height: 50vh;
+    width: 99vw;
+    background-color: rgb(0, 101, 157);
+    padding-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Poppin", sans-serif;
+
+
+
+}
+
+.container .footer .logo{
+
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: aqua;
+    margin-left: 10vw;
+}
+
+.container .footer .logo img{
+    height: 8vh;
+}
+
+.container .footer .logo h3{
+    margin-left: 10vw;
+}
+
+.container .copyright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    
+
+}
