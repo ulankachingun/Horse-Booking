@@ -143,7 +143,7 @@ header span .logoname{
 .spacerdiv{
     height: 10vh;
     width: 99vw;
-    background-color: #0099ff;
+    background-color: rgb(0, 101, 157);
 }
 
 
@@ -194,7 +194,6 @@ header span .logoname{
 .container .booking{
     height: 100vh;
     width: 55vw;
-    background-color: #0099ff;
     margin-left: 30vw;
     padding-top: 5vh;
     display: flex;
@@ -202,10 +201,10 @@ header span .logoname{
     flex-wrap: wrap;
 }
 
-.container .horse1{
+.container #horses{
     height: 30vw;
     width: 25vw;
-    background-color: yellowgreen;
+
     margin-bottom: 2vh;
     border-radius: 1vw;
     display: flex;
@@ -213,5 +212,27 @@ header span .logoname{
     justify-content: flex-end;
     align-items: center;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    font-family: "Poppin", sans-serif;
+    color: white;
+    text-decoration: none;
 
+}
+
+.container #horses p{
+    margin-bottom: 5vh;
+    text-decoration: none;
+
+}
+
+.container .horse1{
+    text-decoration: none;
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.2), 
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(./img/number1/image.png)
+    ;
+    background-size: cover;
+    background-position: center;
 }

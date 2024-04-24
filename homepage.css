@@ -5,7 +5,7 @@
 }
 
 .container{
-    height: 375vh;
+    height: 325vh;
     width: 99vw;
     background-color: rgb(255, 255, 255);
 
@@ -236,7 +236,7 @@ header span .logoname{
     justify-content: space-between;
 
     flex-direction: column;
-    text-decoration: none;
+
     margin:0.5vw;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
     color: #f7f7f7;
@@ -327,6 +327,7 @@ header span .logoname{
 
 .container .locations #map{
     border-radius: 1vw;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 }
 
 .container .locations .locationinfo{
@@ -483,12 +484,13 @@ header span .logoname{
 }
 
 .container .footer{
-    height: 50vh;
+    height: 15vh;
     width: 99vw;
     background-color: rgb(0, 101, 157);
     padding-top: 5vh;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-family: "Poppin", sans-serif;
 
 
@@ -499,16 +501,24 @@ header span .logoname{
 
     color: rgb(255, 255, 255);
     text-decoration: none;
-    background-color: aqua;
-    margin-left: 10vw;
+
+
 }
 
 .container .footer .logo img{
     height: 8vh;
 }
 
-.container .footer .logo h3{
+.container .footer h3{
+    color: white;
+}
+
+.container .footer .left{
     margin-left: 10vw;
+}
+
+.container .footer .right{
+    margin-right: 10vw;
 }
 
 .container .copyright{
