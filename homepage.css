@@ -180,7 +180,9 @@ header span .logoname{
       rgba(0, 0, 0, 0.5)
     ),
     /* bottom, image */
-    url(./img/pc.png);
+    url(./img/pc_photos/pc.png)
+    ;
+    background-size: cover;
     
     font-family: "Poppin", sans-serif;
     color: white;
@@ -261,7 +263,7 @@ header span .logoname{
       rgba(0, 0, 0, 0.5), 
       rgba(0, 0, 0, 0.5)
     ),
-    url(./img/unah.jpeg)
+    url(./img/pc_photos/cpu.png)
     ;
     background-size: cover;
 }
@@ -270,7 +272,7 @@ header span .logoname{
     background: linear-gradient(
         rgba(0, 0, 0, 0.4), 
         rgba(0, 0, 0, 0.4)
-      ),url(./img/Khagin-Khar-lake-horseback-trekking-mongolia-tours-travel-trip-holiday-mongolia-mongolia-horse-trip-mongolia-Arkhangai-Province-horse.jpeg);
+      ),url(./img/pc_photos/cooler.jpeg);
     background-size: cover;
 }
 
@@ -281,7 +283,7 @@ header span .logoname{
       rgba(0, 0, 0, 0.5), 
       rgba(0, 0, 0, 0.5)
     ),
-    url(./img/Mongolia-Naadam-festival-tours-horseback-ride-trekking-ride.jpeg);
+    url(./img/pc_photos/hero.webp);
     background-size: cover;
 }
 
@@ -290,7 +292,7 @@ header span .logoname{
     linear-gradient(
       rgba(0, 0, 0, 0.5), 
       rgba(0, 0, 0, 0.5)
-    ), url(./img/mortoizuragavah.jpeg);
+    ), url(./img/pc_photos/case.png);
     background-size: cover;
 }
 .container .box1 #fifth{
@@ -298,7 +300,7 @@ header span .logoname{
     linear-gradient(
       rgba(0, 0, 0, 0.5), 
       rgba(0, 0, 0, 0.5)
-    ), url(./img/race.jpeg);
+    ), url(./img/pc_photos/video\ card.jpeg);
     background-size: cover;
  
 }
@@ -390,7 +392,7 @@ header span .logoname{
 .container .pictures .content .pic1{
     width: 18vw;
     height: 36vh;
-    background-image: url(./img/bunch\ of\ images/1.jpeg);
+    background-image: url(https://m.media-amazon.com/images/I/71K4CkU04bL._AC_SX679_.jpg);
     background-size: cover;
     border-radius: 1vw;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
@@ -400,7 +402,7 @@ header span .logoname{
 .container .pictures .content .pic2{
     width: 18vw;
     height: 36vh;
-    background-image: url(./img/bunch\ of\ images/2.jpeg);
+    background-image: url(https://www.easypc.io/wp-content/uploads/2023/12/1.png);
     background-size: cover;
     border-radius: 1vw;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
@@ -409,7 +411,7 @@ header span .logoname{
 .container .pictures .content .pic3{
     width: 18vw;
     height: 36vh;
-    background-image: url(./img/bunch\ of\ images/3.jpeg);
+    background-image: url(https://ucarecdn.com/a096ad52-c971-4447-87c9-866eb47bffa9/FOCUSEXTREME.png);
     background-size: cover;
     border-radius: 1vw;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
@@ -418,7 +420,7 @@ header span .logoname{
 .container .pictures .content .pic4{
     width: 18vw;
     height: 36vh;
-    background-image: url(./img/bunch\ of\ images/4.jpeg);
+    background-image: url(https://images-na.ssl-images-amazon.com/images/I/715zrA5cmLL.jpg);
     background-size: cover;
     border-radius: 1vw;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
@@ -427,7 +429,7 @@ header span .logoname{
 .container .pictures .content .pic5{
     width: 18vw;
     height: 36vh;
-    background-image: url(./img/bunch\ of\ images/5.jpeg);
+    background-image: url(https://images-ext-1.discordapp.net/external/W_aID-L9gNobfPa4ZBiKKbkhnaQkw30Sz7BZo3KnWhk/https/static.wixstatic.com/media/125a99_fe165b9101e04e27a2650411bb98ccc0~mv2.png/v1/fill/w_740%2Ch_924%2Cal_c%2Cq_90%2Cusm_0.66_1.00_0.01%2Cenc_auto/Glacial%2520Spike%2520v1%2520Banner.png?format=webp&quality=lossless&width=480&height=600);
     background-size: cover;
     border-radius: 1vw;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
@@ -438,7 +440,7 @@ header span .logoname{
 .container .pictures .content .pic6{
     width: 18vw;
     height: 36vh;
-    background-image: url(./img/bunch\ of\ images/6.jpeg);
+    background-image: url(https://static.wixstatic.com/media/bfb6d4_7e999b721ef344a0b909203a3ac613c2~mv2.png/v1/fill/w_740,h_924,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/Ice%20Lance%20v3%20banner.png);
     background-size: cover;
     border-radius: 1vw;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
@@ -447,7 +449,7 @@ header span .logoname{
 .container .pictures .content .pic7{
     width: 18vw;
     height: 36vh;
-    background-image: url(./img/bunch\ of\ images/7.jpeg);
+    background-image: url(https://static.wixstatic.com/media/125a99_bd46ef57313f43e181b684658934e958~mv2.png/v1/fill/w_738,h_924,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/Frost%20Nova%20v4%20Banner.png);
     background-size: cover;
     border-radius: 1vw;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
@@ -456,7 +458,7 @@ header span .logoname{
 .container .pictures .content .pic8{
     width: 18vw;
     height: 36vh;
-    background-image: url(./img/bunch\ of\ images/8.jpeg);
+    background-image: url(https://5.imimg.com/data5/SELLER/Default/2022/7/BB/CY/TI/8612162/gaming-desktop-pc-customized-pc-500x500.png);
     background-size: cover;
     border-radius: 1vw;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
